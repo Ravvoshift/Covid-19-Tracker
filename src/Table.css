@@ -1,0 +1,23 @@
+.table { /* This makes the "Live cases by country list" to be a shorter,scrollable table, rather than just a simple long list of data of cases */
+    margin-top: 20px; 
+    overflow: scroll;
+    height: 400px;
+    color: grey;
+    background-color: lightgrey;
+}
+
+.table tr { /* This makes the Data to be shown on the opposite end of the table, on the particular country's row*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.table td {
+    padding: 0.5rem;
+    border: none;
+}
+
+
+
+.table tr:nth-of-type(odd) {
+    background-color: lightcyan;
+}
